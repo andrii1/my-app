@@ -15,6 +15,7 @@ import Products from './components/pages/products';
 
 //includes
 import './Assets/css/default.min.css';
+import './Assets/css/style1.css';
 
 
 function App() {
