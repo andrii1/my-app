@@ -7,21 +7,20 @@ import Calc from './calc';
 function Homepage() {
   return (
     <section className="sect1">
-    <div className="container-fluid">
-      <h1>Welcome to my personal site</h1>
-      <p>
-       Hi! I'm Andrii. I build web applications that are scalable, secure, high performing.
-      </p>
-      
-      
-    </div>
-    <div>
     
-        <h2>TLDR; </h2>
-      <p>
-        I'm learning programming from building real projects.
-      </p>
-    </div>
+
+    <div className="jumbotron">
+    <h1 className="display-4">Welcome to my personal site</h1>
+    <p className="lead">Hi! I'm Andrii. I build web applications that are scalable, secure, high performing. <br />
+    I'm learning programming from building real projects.
+  </p>
+<h3 className="display-4">My Stack</h3>
+  <p className="lead">- JavaScript, React, Node;<br />
+  - MySQL, PHP, Laravel;
+  </p>
+  
+  
+</div>
 
     <table className="table">
   <thead className="thead-dark">
@@ -67,6 +66,7 @@ function Homepage() {
     
   </tbody>
 </table>
+
 
 
     </section>
